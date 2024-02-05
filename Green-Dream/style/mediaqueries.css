@@ -1,0 +1,169 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: -50px;
+  }
+
+  #contact {
+    height: fit-content;
+  }
+
+  #about {
+    height: fit-content;
+  }
+
+  #activities {
+    height: fit-content;
+  }
+
+  .image-box1 {
+    padding-top: 10vh;
+  }
+
+  .text-box {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    height: fit-content;
+  }
+
+  #about .section__text__p1 {
+    padding-top: 3rem;
+  }
+
+  #experience {
+    margin-top: 2rem;
+  }
+
+  #profile {
+    display: block;
+    height: fit-content;
+  }
+
+  section {
+    height: fit-content;
+    margin: 0 5%;
+  }
+
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  .text-box p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  #contact,
+  footer {
+    height: 40vh;
+  }
+
+  #profile {
+    margin-bottom: 0px;
+    gap: 0.1px;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    height: fit-content;
+  }
+
+  .image-circle {
+    display: none;
+  }
+
+  .text-circle {
+    background-position: center;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .circle {
+    height: 230px;
+    padding-bottom: 100px;
+    border-radius: 50%;
+    margin-left: -1.9rem;
+  }
+
+  .image-box1 {
+    max-width: 100%;
+  }
+
+  #experience {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: block;
+    margin-bottom: 10rem;
+  }
+
+  .text-box p {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+
+
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    overflow-y: hidden;
+  }
+
+  .contact-info-container {
+    max-width: 300px;
+    height: 50px;
+  }
+
+  .contact-info-container p {
+    font-size: 0.75rem;
+  }
+
+  .contact-info-container img {
+    height: 22px;
+    width: 22px;
+  }
+}
